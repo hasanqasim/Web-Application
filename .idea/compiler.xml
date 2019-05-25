@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rockets" />
+        <module name="fit5171_2019_10" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="rockets" target="1.8" />
+      <module name="fit5171_2019_10" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
