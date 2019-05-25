@@ -25,6 +25,8 @@ public class Launch extends Entity {
     @Relationship(type = "PROVIDES", direction = INCOMING)
     private Rocket launchVehicle;
 
+    private LaunchServiceProvider launchServiceProvider;
+
     private Set<String> payload;
 
     @Property(name = "launchSite")
@@ -60,6 +62,14 @@ public class Launch extends Entity {
 
     public Rocket getLaunchVehicle() {
         return launchVehicle;
+    }
+
+    public LaunchServiceProvider getLaunchServiceProvider() {
+        return launchServiceProvider;
+    }
+
+    public void setLaunchServiceProvider(LaunchServiceProvider launchServiceProvider) {
+        this.launchServiceProvider = launchServiceProvider;
     }
 
     public Set<String> getPayload() {
