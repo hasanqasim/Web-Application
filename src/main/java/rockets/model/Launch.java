@@ -27,7 +27,7 @@ public class Launch extends Entity {
 
     private LaunchServiceProvider launchServiceProvider;
 
-    private Set<String> payload;
+    private Set<Payload> payload;
 
     @Property(name = "launchSite")
     private String launchSite;
@@ -72,8 +72,12 @@ public class Launch extends Entity {
         this.launchServiceProvider = launchServiceProvider;
     }
 
-    public Set<String> getPayload() {
+    public Set<Payload> getPayload() {
         return payload;
+    }
+
+    public void setPayloads(Set<Payload> payload) {
+        this.payload = payload;
     }
 
     public String getLaunchSite() {
@@ -92,7 +96,7 @@ public class Launch extends Entity {
         return launchOutcome;
     }
 
-    public void setPayload(Set<String> payload) {
+    public void setPayload(Set<Payload> payload) {
         this.payload = payload;
     }
 
@@ -123,6 +127,7 @@ public class Launch extends Entity {
         Launch launch = (Launch) o;
         return Objects.equals(launchDate, launch.launchDate) &&
                 Objects.equals(launchVehicle, launch.launchVehicle) &&
+                Objects.equals(launchServiceProvider, launch.launchServiceProvider) &&
                 Objects.equals(orbit, launch.orbit);
     }
 

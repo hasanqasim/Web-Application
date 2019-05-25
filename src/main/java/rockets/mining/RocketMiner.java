@@ -116,11 +116,23 @@ public class RocketMiner {
      * @param k the number of launches to be returned.
      * @return the list of k most recent launches.
      */
-    public List<Launch> mostRecentLaunches(int k) {
+    public List<Launch> mostRecentLaunches(int k)throws IllegalArgumentException {
+        if (k <= 0)
+            throw new IllegalArgumentException("k should be positive");
         logger.info("find most recent " + k + " launches");
-        Collection<Launch> launches = dao.loadAll(Launch.class);
-        Comparator<Launch> launchDateComparator = (a, b) -> -a.getLaunchDate().compareTo(b.getLaunchDate());
-        return launches.stream().sorted(launchDateComparator).limit(k).collect(Collectors.toList());
+        List<Launch> launches = new ArrayList<>(dao.loadAll(Launch.class));
+        for (int i=0; i<launches.size()-1; i++){
+            for(int j=i+1; j<launches.size(); j++){
+                if (launches.get(i).getLaunchDate().isBefore(launches.get(j).getLaunchDate())){
+                    Launch l = launches.get(i);
+                    launches.set(i, launches.get(j));
+                    launches.set(j, l);
+                }
+            }
+        }
+        if (k> launches.size())
+            k = launches.size();
+        return launches.subList(0,k);
     }
 
     /**
@@ -185,7 +197,7 @@ public class RocketMiner {
         List<Launch> launches = new ArrayList<>(dao.loadAll(Launch.class));
         for (int i=0; i<launches.size()-1; i++){
             for(int j=i+1; j<launches.size(); j++){
-                int flag = launches.get(i).getPrice()==(launches.get(j).getPrice())?0:-1;
+                int flag = launches.get(i).getPrice()<(launches.get(j).getPrice())?-1:0;
                 if (flag < 0){
                     Launch l = launches.get(i);
                     launches.set(i, launches.get(j));
