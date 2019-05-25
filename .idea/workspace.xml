@@ -3,15 +3,45 @@
   <component name="ChangeListManager">
     <list default="true" id="c0342aaf-86c7-4ace-8dce-ad0aca54504c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rockets/dataaccess/neo4j/Neo4jDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rockets/dataaccess/neo4j/Neo4jDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rockets/web/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rockets/web/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rockets/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rockets/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rockets/dataaccess/neo4j/Neo4jDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rockets/dataaccess/neo4j/Neo4jDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rockets/web/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rockets/web/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/logs/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.counts.db.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labelscanstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labeltokenstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labeltokenstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labeltokenstore.db.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labeltokenstore.db.names.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.nodestore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.nodestore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.nodestore.db.labels" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.nodestore.db.labels.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.arrays" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.arrays.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.index.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.index.keys" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.index.keys.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.strings.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshipgroupstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshipgroupstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshipstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshipstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshiptypestore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshiptypestore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshiptypestore.db.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshiptypestore.db.names.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.schemastore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.schemastore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.transaction.db.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rockets/store_lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.dataaccess.neo4j.Neo4jDAOUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.dataaccess.neo4j.Neo4jDAOUnitTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.mining.RocketMinerUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.mining.RocketMinerUnitTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.model.RocketUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.model.RocketUnitTest.xml" afterDir="false" />
@@ -19,8 +49,9 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.web.AppSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.web.AppSystemTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.dataaccess.neo4j.Neo4jDAOUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.dataaccess.neo4j.Neo4jDAOUnitTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.mining.RocketMinerUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.mining.RocketMinerUnitTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.model.RocketUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.model.RocketUnitTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.model.UserUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.model.UserUnitTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.web.AppSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.web.AppSystemTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rockets/web/AppSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rockets/web/AppSystemTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-data/test-db/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.counts.db.a" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.counts.db.a" afterDir="false" />
@@ -70,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="3349">
+              <caret line="207" column="1" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -79,17 +110,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rockets/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="714">
+              <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="140" selection-start-line="140" selection-end-line="140" />
+            <state relative-caret-position="262">
+              <caret line="135" column="50" lean-forward="true" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,11 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rockets/web/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2601">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+            <state relative-caret-position="4284">
+              <caret line="284" column="50" lean-forward="true" selection-start-line="284" selection-start-column="50" selection-end-line="284" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#883#884#0" expanded="true" />
@@ -156,12 +187,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/rockets/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/rockets/dataaccess/neo4j/Neo4jDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/rockets/web/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/rockets/model/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java" />
       </list>
     </option>
   </component>
@@ -233,6 +265,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rockets" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rockets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIT5171_Assignment_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rockets" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,6 +311,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rockets" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rockets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIT5171_Assignment_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rockets" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -282,7 +332,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558759658961" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558763528438" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -386,7 +436,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558747191078</updated>
-      <workItem from="1558747192490" duration="9744000" />
+      <workItem from="1558747192490" duration="12945000" />
     </task>
     <servers />
   </component>
@@ -402,10 +452,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9744000" />
+    <option name="totallyTimeSpent" value="12945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
@@ -446,20 +497,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rockets/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rockets/model/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -475,16 +512,6 @@
             <element signature="e#4834#4835#0" expanded="true" />
             <element signature="e#4959#4960#0" expanded="true" />
             <element signature="e#5349#5350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,12 +532,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rockets/web/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2601">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="4284">
+          <caret line="284" column="50" lean-forward="true" selection-start-line="284" selection-start-column="50" selection-end-line="284" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#883#884#0" expanded="true" />
             <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rockets/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3349">
+          <caret line="207" column="1" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="135" column="50" lean-forward="true" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

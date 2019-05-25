@@ -119,7 +119,7 @@ public class AppSystemTest {
         JWebUnit.assertTextPresent("User Registration");
 
         JWebUnit.setTextField("email", "abc@example.com");
-        JWebUnit.setTextField("password", "1234");
+        JWebUnit.setTextField("password", "1Ac$asdasd");
         JWebUnit.setTextField("firstName", "John");
         JWebUnit.setTextField("lastName", "Doe");
 
@@ -133,7 +133,7 @@ public class AppSystemTest {
         JWebUnit.assertTextPresent("User Registration");
 
         JWebUnit.setTextField("email", "abc@example.com");
-        JWebUnit.setTextField("password", "1234");
+        JWebUnit.setTextField("password", "1Ac$asdasd");
         JWebUnit.setTextField("firstName", "Jane");
         JWebUnit.setTextField("lastName", "Who");
 
