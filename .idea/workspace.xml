@@ -3,68 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0342aaf-86c7-4ace-8dce-ad0aca54504c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rockets/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rockets/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/logs/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.counts.db.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labelscanstore.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labeltokenstore.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labeltokenstore.db.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labeltokenstore.db.names" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.labeltokenstore.db.names.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.nodestore.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.nodestore.db.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.nodestore.db.labels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.nodestore.db.labels.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.arrays" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.arrays.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.index.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.index.keys" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.index.keys.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.propertystore.db.strings.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshipgroupstore.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshipgroupstore.db.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshipstore.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshipstore.db.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshiptypestore.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshiptypestore.db.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshiptypestore.db.names" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.relationshiptypestore.db.names.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.schemastore.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.schemastore.db.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/neostore.transaction.db.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rockets/store_lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.dataaccess.neo4j.Neo4jDAOUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.dataaccess.neo4j.Neo4jDAOUnitTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.mining.RocketMinerUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.mining.RocketMinerUnitTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.model.RocketUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.model.RocketUnitTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.model.UserUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.model.UserUnitTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.web.AppSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-rockets.web.AppSystemTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.dataaccess.neo4j.Neo4jDAOUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.dataaccess.neo4j.Neo4jDAOUnitTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.mining.RocketMinerUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.mining.RocketMinerUnitTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.model.RocketUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.model.RocketUnitTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.model.UserUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.model.UserUnitTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/rockets.web.AppSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/rockets.web.AppSystemTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.counts.db.a" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.counts.db.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.counts.db.b" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.counts.db.b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.labelscanstore.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.labelscanstore.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.nodestore.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.nodestore.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.nodestore.db.id" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.nodestore.db.id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.propertystore.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.propertystore.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.propertystore.db.id" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.propertystore.db.id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.propertystore.db.strings.id" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.propertystore.db.strings.id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.relationshipstore.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.relationshipstore.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.relationshipstore.db.id" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.relationshipstore.db.id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-data/test-db/neostore.transaction.db.0" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-data/test-db/neostore.transaction.db.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="187">
+              <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -116,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="135" column="50" lean-forward="true" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+            <state relative-caret-position="211">
+              <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,11 +128,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/rockets/dataaccess/neo4j/Neo4jDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/rockets/web/App.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
         <option value="$PROJECT_DIR$/src/main/java/rockets/model/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/rockets/model/UserUnitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -332,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558763528438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558763684080" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -436,7 +375,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558747191078</updated>
-      <workItem from="1558747192490" duration="12945000" />
+      <workItem from="1558747192490" duration="13659000" />
     </task>
     <servers />
   </component>
@@ -452,7 +391,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12945000" />
+    <option name="totallyTimeSpent" value="13659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -463,7 +402,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Image Layers" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Graph Database Console" />
       <window_info anchor="bottom" id="Terminal" weight="0.3285968" />
@@ -481,7 +420,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32955465" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.32955465" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Graph Database" />
@@ -513,13 +452,6 @@
             <element signature="e#4959#4960#0" expanded="true" />
             <element signature="e#5349#5350#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -558,11 +490,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rockets/web/AppSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="135" column="50" lean-forward="true" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+        <state relative-caret-position="211">
+          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
         </state>
       </provider>
     </entry>
