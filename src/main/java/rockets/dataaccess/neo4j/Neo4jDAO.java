@@ -55,7 +55,6 @@ public class Neo4jDAO implements DAO {
     @Override
     public <T extends Entity> T createOrUpdate(T entity) {
         Class clazz = entity.getClass();
-
         T existingEntity = findExistingEntity(entity, clazz);
         if (null != existingEntity) {
             entity.setId(existingEntity.getId());

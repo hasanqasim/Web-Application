@@ -142,7 +142,13 @@ public class App {
             attributes.put("email", email);
             attributes.put("firstName", firstName);
             attributes.put("lastName", lastName);
-
+            if(dao.getUserByEmail(email)!=null){
+                attributes.put("errorMsg", "Email already registered");
+                attributes.put("firstName","");
+                attributes.put("lastName","");
+                attributes.put("email", "");
+                return new ModelAndView(attributes,"register.html.ftl");
+            }
             logger.info("Registering <" + email + ">, " + password);
 
             User user;
