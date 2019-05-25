@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: rockets.web.AppSystemTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.036 s - in rockets.web.AppSystemTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.654 s - in rockets.web.AppSystemTest

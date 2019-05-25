@@ -10,13 +10,14 @@ import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
 
+import static org.apache.commons.lang3.Validate.notBlank;
 import static org.apache.commons.lang3.Validate.notNull;
 import static org.neo4j.ogm.annotation.Relationship.INCOMING;
 import static org.neo4j.ogm.annotation.Relationship.OUTGOING;
 
 @NodeEntity
 @CompositeIndex(properties = {"name", "country", "manufacturer"}, unique = true)
-public class Rocket extends Entity {
+public class Rocket extends Entity implements Comparable{
     @Property(name="name")
     private String name;
 
@@ -50,9 +51,16 @@ public class Rocket extends Entity {
     }
 
     public Rocket(String name, String country, LaunchServiceProvider manufacturer) {
-        notNull(name);
-        notNull(country);
+        notBlank(name);
+        notBlank(country);
         notNull(manufacturer);
+
+        char[] chars = country.trim().toCharArray();
+        for(char c: chars){
+            if (!Character.isLetter(c)){
+                throw new IllegalArgumentException("country name can only contain letters");
+            }
+        }
 
         this.name = name;
         this.country = country;
@@ -94,15 +102,17 @@ public class Rocket extends Entity {
     }
 
     public void setMassToLEO(String massToLEO) {
-        notNull(massToLEO);
+        notBlank(massToLEO, "massToLEO cannot be null or empty");
         this.massToLEO = massToLEO;
     }
 
     public void setMassToGTO(String massToGTO) {
+        notBlank(massToGTO, "massToGTO cannot be null or empty");
         this.massToGTO = massToGTO;
     }
 
     public void setMassToOther(String massToOther) {
+        notBlank(massToOther, "massToOther cannot be null or empty");
         this.massToOther = massToOther;
     }
 
@@ -149,5 +159,17 @@ public class Rocket extends Entity {
                 ", firstYearFlight=" + firstYearFlight +
                 ", latestYearFlight=" + latestYearFlight +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Rocket r = (Rocket) o;
+        if(this.equals(r))
+            return 0;
+        else if(this.name.length()< r.name.length())
+            return 1;
+        else
+            return -1;
+
     }
 }
