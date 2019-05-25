@@ -138,6 +138,7 @@ public class AppSystemTest {
         JWebUnit.setTextField("lastName", "Who");
 
         JWebUnit.submit();
+        JWebUnit.clickLinkWithExactText("Logout"); //
 
         JWebUnit.assertTextNotPresent("Welcome back: Jane Who!");
     }
